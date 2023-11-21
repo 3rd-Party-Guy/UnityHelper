@@ -1,4 +1,5 @@
-*
-*/*
+/**
+!/.gitignore
 
 !/[Aa]ssets/[Ss]cripts/UnityHelper/
+!/[Aa]ssets/[Ss]cripts/UnityHelper/**
