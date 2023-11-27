@@ -13,4 +13,7 @@ public static class GizmoUtils
 
     public static void DrawChildrenPath(this Transform value, bool looped = false) =>
         DrawPath(value.Children().Select(p => p.position).ToArray(), looped);
+
+    public static void DrawChlidrenPath(this GameObject value, bool looped = false) =>
+        DrawChildrenPath(value.transform, looped);
 }
